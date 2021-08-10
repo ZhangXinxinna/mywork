@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import firstpage from '@/components/firstpage'
-import secondpage from '@/components/secondpage'
-import thirdpage from '@/components/thirdpage'
+import firstpage from '@/components/subpage/firstpage'
+import secondpage from '@/components/subpage/secondpage'
+import thirdpage from '@/components/subpage/thirdpage'
+import thirdpagefirst from '@/components/subpage/subpages/thirdpagefirst'
 
 Vue.use(Router)
 
@@ -27,7 +28,14 @@ export default new Router({
         {
           path: 'thirdpage',
           name: 'thirdpage',
-          component: thirdpage
+          component: thirdpage,
+          children: [
+            {
+              path: 'thirdpagefirst',
+              name: 'thirdpagefirst',
+              component: thirdpagefirst
+            }
+          ]
         }
       ]
     }
