@@ -31,11 +31,11 @@ export default {
   padding-top: 35px;
   padding-left: 40px;
 }
-.el-card {
+/* .el-card {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 35px;
   height: auto;
-}
+} */
 
 </style>
