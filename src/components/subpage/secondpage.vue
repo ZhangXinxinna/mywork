@@ -26,8 +26,11 @@
                  style="margin-left:3px">院校地区：</div>
           </div>
           <div style="border-bottom: 1px solid rgb(236, 236, 236)">
-            <el-checkbox-group v-model="checkedCities" @change="handleCheckedCitiesChange">
-              <el-checkbox-button :indeterminate="isIndeterminate" v-model="checkAll" @change="handleCheckAllChange">全选</el-checkbox-button>
+            <el-checkbox-group v-model="checkedCities"
+                               @change="handleCheckedCitiesChange">
+              <el-checkbox-button :indeterminate="isIndeterminate"
+                                  v-model="checkAll"
+                                  @change="handleCheckAllChange">全选</el-checkbox-button>
               <el-checkbox-button v-for="city in cities"
                                   :label="city"
                                   :key="city">{{city}}</el-checkbox-button>
@@ -35,15 +38,18 @@
           </div>
         </div>
       </div>
-            <div id="option1">
+      <div id="option1">
         <div>
           <div class="filter-view-left-text">
             <div class="filter-view-left-text"
                  style="margin-left:3px">办学性质:</div>
           </div>
           <div style="border-bottom: 1px solid rgb(236, 236, 236)">
-            <el-checkbox-group v-model="checkedCities" @change="handleCheckedCitiesChange1">
-              <el-checkbox-button :indeterminate="isIndeterminate1" v-model="checkAll" @change="handleCheckAllChange1">全选</el-checkbox-button>
+            <el-checkbox-group v-model="checkedCities"
+                               @change="handleCheckedCitiesChange1">
+              <el-checkbox-button :indeterminate="isIndeterminate1"
+                                  v-model="checkAll"
+                                  @change="handleCheckAllChange1">全选</el-checkbox-button>
               <el-checkbox-button v-for="city1 in cities1"
                                   :label="city1"
                                   :key="city1">{{city1}}</el-checkbox-button>
@@ -54,9 +60,12 @@
     </div>
     <div id="listview">
       <el-tabs type="border-card">
-        <el-tab-pane label="知名度"></el-tab-pane>
-        <el-tab-pane label="博士点"></el-tab-pane>
-        <el-tab-pane label="硕士点"></el-tab-pane>
+        <el-tab-pane label="知名度">
+        </el-tab-pane>
+        <el-tab-pane label="博士点">
+        </el-tab-pane>
+        <el-tab-pane label="硕士点">
+        </el-tab-pane>
       </el-tabs>
     </div>
   </div>
@@ -142,7 +151,7 @@ export default {
 }
 .el-checkbox-button {
   margin-left: 50px;
-  margin-right: 40px;
+  margin-right: 20px;
   margin-top: 20px;
   font-size: 20px;
   float: left;
