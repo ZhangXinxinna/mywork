@@ -19,6 +19,7 @@
           <el-menu-item @click="goIndex">首页</el-menu-item>
           <el-menu-item @click="goRank">挑大学</el-menu-item>
           <el-menu-item @click="goAllApp">挑专业</el-menu-item>
+          <el-menu-item @click="goIndex3">志愿模拟填报</el-menu-item>
           <el-menu-item @click="goIndex1" class="el-icon-s-platform" style="float:right">登录</el-menu-item>
           <el-menu-item @click="goIndex2" class="el-icon-s-platform" style="float:right">注册</el-menu-item>
         </el-menu>
@@ -64,6 +65,9 @@ export default {
     },
     goIndex2 () {
       this.$router.push({ 'path': '/register' })
+    },
+    goIndex3 () {
+      this.$router.push({ 'path': '/fourthpage' })
     }
   }
 }

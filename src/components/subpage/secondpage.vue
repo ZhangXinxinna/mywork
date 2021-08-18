@@ -61,10 +61,544 @@
     <div id="listview">
       <el-tabs type="border-card">
         <el-tab-pane label="知名度">
+          <div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <a href="http://gkcx.eol.cn/school/31?fromcoop=bdkp">
+                  <div class="school-item-right">
+                    <el-button type="primary"
+                               round>投档线预测
+                    </el-button>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+          </div>
         </el-tab-pane>
         <el-tab-pane label="博士点">
+          <div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+          </div>
         </el-tab-pane>
         <el-tab-pane label="硕士点">
+          <div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+            <div class="school-list-view">
+              <div class="school-item">
+                <div class="school-item-left"
+                     style="width:120px;height:164px">
+                  <div class="image"
+                       style="margin:30px 20px 30px 0px">
+                    <a href="https://www.pku.edu.cn/">
+                      <img class="el-image"
+                           src="https://www.shengx100.com/image/gx/logo/cd8dcad9425445aea961900aa67922e9.png"
+                           style="object-fit:contain;width:100px;height:100px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="school-item-content">
+                  <div class="school-item-content-text">北京大学</div>
+                  <div class="school-item-content-main">
+                    <div class="school-item-content-text1">教育行政主管部门：教育部</div>
+                    <div class="school-item-content-text1">重点学科数：81</div>
+                    <div class="school-item-content-text1">硕士点数：312</div>
+                    <div class="school-item-content-text1">博士点个数：259</div>
+                  </div>
+                  <div class="tag">
+                    <el-tag type="warning">985</el-tag>
+                    <el-tag type="warning">211</el-tag>
+                    <el-tag type="warning">双一流</el-tag>
+                    <el-tag type="warning">教育部直属</el-tag>
+                    <el-tag type="warning">研究生院</el-tag>
+                  </div>
+                </div>
+                <div class="school-item-right">
+                  <el-button type="primary"
+                             round>投档线预测</el-button>
+                </div>
+              </div>
+            </div>
+          </div>
         </el-tab-pane>
       </el-tabs>
     </div>
@@ -158,5 +692,58 @@ export default {
   border: 1px solid rgba(221, 221, 221, 0.616);
   margin-bottom: 30px;
   font-family: '微软雅黑';
+}
+.school-list-view {
+  border-bottom: 1px solid #ececec;
+  cursor: pointer;
+  width: 100%;
+}
+.school-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+.school-item-view {
+  border-bottom: 1px solid #ececec;
+  cursor: pointer;
+  display: flex;
+}
+.school-item-content {
+  flex-direction: column;
+  margin-left: 20px;
+  width: 1100px;
+}
+.school-item-content-text {
+  margin-top: 20px;
+  font-family: '微软雅黑';
+  font-size: 30px;
+  width: 100%;
+  text-align: left;
+}
+.school-item-content-text1 {
+  margin-top: 10px;
+  font-family: '微软雅黑';
+  font-size: 16px;
+  text-align: left;
+  margin-right: 50px;
+  color: grey;
+}
+.school-item-content-main {
+  display: flex;
+}
+.tag {
+  text-align: left;
+  margin-top: 20px;
+}
+.el-tag {
+  margin-right: 35px;
+  font-size: 15px;
+}
+.el-button {
+  margin-top: 50px;
 }
 </style>
