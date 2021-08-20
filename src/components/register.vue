@@ -39,8 +39,8 @@
         </el-form-item>
       </el-form>
       <el-row>
-        <el-button type="success">注册</el-button>
-        <el-button>重置</el-button>
+        <el-button type="success" @click="logon">注册</el-button>
+        <el-button @click="reset">重置</el-button>
       </el-row>
     </div>
   </el-card>
@@ -86,6 +86,23 @@ export default {
           { validator: validatePass2, trigger: 'blur' }
         ]
       }
+    }
+  },
+  methods: {
+    reset () {
+      this.$refs.register.resetFields()
+    },
+    logon () {
+      this.$refs.register.validate(
+        async valid => {
+          if (!valid) return
+          // eslint-disable-next-line standard/object-curly-even-spacing
+          const { data: res} = await this.$http.post('lujing', this.register)
+          if (res.meta.stauts !== 200) return console.log('登陆失败')
+          console.log('登陆成功')
+        }
+      )
+      this.$router.push({ 'path': '/login' })
     }
   }
 }

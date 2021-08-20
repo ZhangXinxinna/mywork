@@ -1,32 +1,73 @@
 <template>
   <div class="main">
     <div class="maths">
-      <div class="title">数学类</div>
+      <div class="title">基础医学类</div>
       <el-divider></el-divider>
       <div class="item">
-        <div class="item_name">数学与应用数学</div>
-        <div class="item_name">信息技术与计算科学</div>
-        <div class="item_name">数理基础科学</div>
-        <div class="item_name">数据计算与应用</div>
+        <div class="item_name">生物医学</div>
+        <div class="item_name">基础医学</div>
+        <div class="item_name">生物医学科学</div>
       </div>
     </div>
     <div class="maths">
-      <div class="title">物理学类</div>
+      <div class="title">临床医学类</div>
       <el-divider></el-divider>
       <div class="item">
-        <div class="item_name">物理学</div>
-        <div class="item_name">应用物理学</div>
-        <div class="item_name">声学</div>
-        <div class="item_name">核物理</div>
-        <div class="item_name">系统科学与工程</div>
-        <div class="item_name">量子信息科学</div>
+        <div class="item_name">临床医学</div>
+        <div class="item_name">麻醉学</div>
+        <div class="item_name">医学影像学</div>
+        <div class="item_name">眼视光医学</div>
+        <div class="item_name">精神医学</div>
+        <div class="item_name">放射医学</div>
       </div>
     </div>
     <div class="maths">
-      <div class="title">天文学类类</div>
+      <div class="title">口腔医学类</div>
       <el-divider></el-divider>
       <div class="item">
-        <div class="item_name">天文学</div>
+        <div class="item_name">口腔医学</div>
+      </div>
+    </div>
+    <div class="maths">
+      <div class="title">公共卫生与预防医学类</div>
+      <el-divider></el-divider>
+      <div class="item">
+        <div class="item_name">预防医学</div>
+        <div class="item_name">食品卫生与营养学</div>
+        <div class="item_name">妇幼保健医学</div>
+        <div class="item_name">卫生监督</div>
+        <div class="item_name">全球健康学</div>
+        <div class="item_name">运动与公共健康</div>
+      </div>
+    </div>
+    <div class="maths">
+      <div class="title">中医学类</div>
+      <el-divider></el-divider>
+      <div class="item">
+        <div class="item_name">中医学</div>
+        <div class="item_name">针灸推拿学</div>
+        <div class="item_name">藏医学</div>
+        <div class="item_name">蒙医学</div>
+        <div class="item_name">维医学</div>
+        <div class="item_name">壮医学</div>
+        <div class="item_name">哈医学</div>
+        <div class="item_name">傣医学</div>
+        <div class="item_name">回医学</div>
+        <div class="item_name">中医养生学</div>
+      </div>
+    </div>
+    <div class="maths">
+      <div class="title">中西医结合类</div>
+      <el-divider></el-divider>
+      <div class="item">
+        <div class="item_name">中西医临床医学</div>
+      </div>
+    </div>
+    <div class="maths">
+      <div class="title">法医学类</div>
+      <el-divider></el-divider>
+      <div class="item">
+        <div class="item_name">法医学</div>
       </div>
     </div>
   </div>

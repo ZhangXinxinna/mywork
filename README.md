@@ -28,3 +28,24 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+index.js
+// 配置请求的根路径
+axios.defaults.baseURL = ''
+
+
+login
+用户名：loginform.usename
+密码：loginform.password
+
+register
+用户名 register.username
+设置密码 register.setpword
+确认密码 register.checpword
+
+fourth
+所在省份：form.input1
+排名：form.input2
+所在批次：form.input3
+高考分数：form.input4

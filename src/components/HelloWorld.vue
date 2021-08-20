@@ -58,7 +58,7 @@ export default {
       this.$router.push({ 'path': '/secondpage' })
     },
     goAllApp () {
-      this.$router.push({ 'path': '/thirdpage' })
+      this.$router.push({ 'path': '/thirdpage/thirdpagefirst' })
     },
     goIndex1 () {
       this.$router.push({ 'path': '/login' })

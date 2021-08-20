@@ -22,13 +22,13 @@
         </div>
       </div>
       <div id="img1">
-        <a href="secondpage.vue"
+        <a href="/#/secondpage"
            target="-blank"
            title="源码家园">
           <img src="../../assets/link1.png"></a>
       </div>
       <div id="img2">
-        <a href="secondpage.vue"
+        <a href="/#/thirdpage/thirdpagefirst"
            target="-blank"
            title="源码家园">
           <img src="../../assets/link2.png"></a>

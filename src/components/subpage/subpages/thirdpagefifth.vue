@@ -1,32 +1,39 @@
 <template>
   <div class="main">
     <div class="maths">
-      <div class="title">数学类</div>
+      <div class="title">教育学类</div>
       <el-divider></el-divider>
       <div class="item">
-        <div class="item_name">数学与应用数学</div>
-        <div class="item_name">信息技术与计算科学</div>
-        <div class="item_name">数理基础科学</div>
-        <div class="item_name">数据计算与应用</div>
+        <div class="item_name">教育学</div>
+        <div class="item_name">科学教育</div>
+        <div class="item_name">人文教育</div>
+        <div class="item_name">教育技术学</div>
+        <div class="item_name">学前教育</div>
+        <div class="item_name">小学教育</div>
+        <div class="item_name">特殊教育</div>
+        <div class="item_name">华文教育</div>
+        <div class="item_name">教育康复学</div>
+        <div class="item_name">卫生教育</div>
+        <div class="item_name">认知科学与技术</div>
+        <div class="item_name">融合教育</div>
       </div>
     </div>
     <div class="maths">
-      <div class="title">物理学类</div>
+      <div class="title">体育学类</div>
       <el-divider></el-divider>
       <div class="item">
-        <div class="item_name">物理学</div>
-        <div class="item_name">应用物理学</div>
-        <div class="item_name">声学</div>
-        <div class="item_name">核物理</div>
-        <div class="item_name">系统科学与工程</div>
-        <div class="item_name">量子信息科学</div>
-      </div>
-    </div>
-    <div class="maths">
-      <div class="title">天文学类类</div>
-      <el-divider></el-divider>
-      <div class="item">
-        <div class="item_name">天文学</div>
+        <div class="item_name">体育教育</div>
+        <div class="item_name">运动训练</div>
+        <div class="item_name">社会体育指导与管理</div>
+        <div class="item_name">武术与民族传统体育</div>
+        <div class="item_name">运动人体科学</div>
+        <div class="item_name">运动康复</div>
+        <div class="item_name">休闲体育</div>
+        <div class="item_name">体能训练</div>
+        <div class="item_name">冰雪运动</div>
+        <div class="item_name">电子竞技运动与管理</div>
+        <div class="item_name">智能体育工程</div>
+        <div class="item_name">体育旅游</div>
       </div>
     </div>
   </div>
@@ -63,8 +70,10 @@ export default {
   width: 100%;
   margin-left: 25px;
   margin-right: 25;
+  flex-wrap: wrap;
 }
 .item_name {
+  margin-top: 10px;
   margin-left: 35px;
   font-size: 16px;
   font-weight: 200;

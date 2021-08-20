@@ -1,32 +1,45 @@
 <template>
   <div class="main">
     <div class="maths">
-      <div class="title">数学类</div>
+      <div class="title">经济学类</div>
       <el-divider></el-divider>
       <div class="item">
-        <div class="item_name">数学与应用数学</div>
-        <div class="item_name">信息技术与计算科学</div>
-        <div class="item_name">数理基础科学</div>
-        <div class="item_name">数据计算与应用</div>
+        <div class="item_name">经济学</div>
+        <div class="item_name">经济统计学</div>
+        <div class="item_name">国民经济管理</div>
+        <div class="item_name">资源与环境经济学</div>
+        <div class="item_name">商务经济学</div>
+        <div class="item_name">能源经济</div>
+        <div class="item_name">劳动经济学</div>
+        <div class="item_name">经济工程</div>
       </div>
     </div>
     <div class="maths">
-      <div class="title">物理学类</div>
+      <div class="title">财政学类</div>
       <el-divider></el-divider>
       <div class="item">
-        <div class="item_name">物理学</div>
-        <div class="item_name">应用物理学</div>
-        <div class="item_name">声学</div>
-        <div class="item_name">核物理</div>
-        <div class="item_name">系统科学与工程</div>
-        <div class="item_name">量子信息科学</div>
+        <div class="item_name">财政学</div>
+        <div class="item_name">税收学</div>
       </div>
     </div>
     <div class="maths">
-      <div class="title">天文学类类</div>
+      <div class="title">金融学类</div>
       <el-divider></el-divider>
       <div class="item">
-        <div class="item_name">天文学</div>
+        <div class="item_name">精算学</div>
+        <div class="item_name">金融学</div>
+        <div class="item_name">金融工程</div>
+        <div class="item_name">保险学</div>
+        <div class="item_name">投资学</div>
+        <div class="item_name">金融数学</div>
+      </div>
+    </div>
+        <div class="maths">
+      <div class="title">经济与贸易类</div>
+      <el-divider></el-divider>
+      <div class="item">
+        <div class="item_name">国际经济与贸易</div>
+        <div class="item_name">贸易经济</div>
       </div>
     </div>
   </div>
@@ -63,8 +76,10 @@ export default {
   width: 100%;
   margin-left: 25px;
   margin-right: 25;
+  flex-wrap: wrap;
 }
 .item_name {
+  margin-top: 10px;
   margin-left: 35px;
   font-size: 16px;
   font-weight: 200;
