@@ -15,26 +15,31 @@
       <div class="text">请输入您的高考信息
       </div>
       <div class="input">
-        <el-input placeholder="请输入内容"
-                  v-model="input1">
-          <template slot="prepend">所在省份：</template>
-        </el-input>
-        <el-input placeholder="请输入内容"
-                  v-model="input2">
-          <template slot="prepend">排名：</template>
-        </el-input>
-        <el-input placeholder="请输入内容"
-                  v-model="input3">
-          <template slot="prepend">所在批次：</template>
-        </el-input>
-        <el-input placeholder="请输入内容"
-                  v-model="input4">
-          <template slot="prepend">高考分数：</template>
-        </el-input>
+        <el-form :model="form">
+          <el-input placeholder="请输入内容"
+                    v-model="form.input1">
+            <template slot="prepend">所在省份：</template>
+          </el-input>
+          <el-input placeholder="请输入内容"
+                    v-model="form.input2">
+            <template slot="prepend">排名：</template>
+          </el-input>
+          <el-input placeholder="请输入内容"
+                    v-model="form.input3">
+            <template slot="prepend">所在批次：</template>
+          </el-input>
+          <el-input placeholder="请输入内容"
+                    v-model="form.input4">
+            <template slot="prepend">高考分数：</template>
+          </el-input>
+        </el-form>
       </div>
     </div>
     <div class="button">
-        <el-button type="primary" round>提交</el-button>
+      <el-button :default-active="routerName"
+                 type="primary"
+                 round
+                 @click="submit">提交</el-button>
     </div>
   </div>
 </template>
@@ -42,10 +47,23 @@
 export default {
   data () {
     return {
-      input1: '',
-      input2: '',
-      input3: '',
-      input4: ''
+      form: {
+        input1: '',
+        input2: '',
+        input3: '',
+        input4: ''
+      }
+    }
+  },
+  mounted () {
+    this.routerName = this.$route.path
+  },
+  methods: {
+    handleSelect (key, keyPath) {
+      console.log(key, keyPath)
+    },
+    submit () {
+      this.$router.push({ 'path': '/result' })
     }
   }
 }
@@ -59,24 +77,28 @@ export default {
   margin-top: 100px;
   color: rgb(86, 168, 245);
 }
-.input{
+.input {
   margin-top: 60px;
-  display:flex;
+  display: flex;
   align-items: center;
-  flex-direction: column
+  flex-direction: column;
 }
 .el-input {
   width: 500px;
   margin-top: 50px;
 }
-.button{
-  margin-top:100px;
+.button {
+  margin-top: 100px;
 }
-.el-button{
+.el-button {
   font-size: 20px;
   margin-bottom: 100px;
 }
-.fourthpage{
+.fourthpage {
   height: auto;
+}
+.el-form {
+  display: flex;
+  flex-direction: column;
 }
 </style>

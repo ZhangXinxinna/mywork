@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import login from '@/components/login'
+import sccess from '@/components/sccess'
 import register from '@/components/register'
 import firstpage from '@/components/subpage/firstpage'
 import secondpage from '@/components/subpage/secondpage'
@@ -16,6 +17,10 @@ import thirdpagefifth from '@/components/subpage/subpages/thirdpagefifth'
 import thirdpagesixth from '@/components/subpage/subpages/thirdpagesixth'
 import thirdpageseventh from '@/components/subpage/subpages/thirdpageseventh'
 import thirdpageeighth from '@/components/subpage/subpages/thirdpageeighth'
+import axios from 'axios'
+// 配置请求的根路径
+axios.defaults.baseURL = ''
+Vue.prototype.$http = axios
 
 Vue.use(Router)
 
@@ -102,6 +107,11 @@ export default new Router({
       path: '/register',
       name: 'register',
       component: register
+    },
+    {
+      path: '/sccess',
+      name: 'sccess',
+      component: sccess
     }
   ]
 })
